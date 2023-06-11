@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.board-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.board-block{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+
+}
+.keyboard-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.keyboard-column{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+.keyboard-column-enter{
+    width: 45px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+
